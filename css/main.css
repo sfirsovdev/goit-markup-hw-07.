@@ -66,10 +66,6 @@ ul {
   display: flex;
 }
 
-.button {
-  cursor: pointer;
-}
-
 .container-main {
   position: relative;
   display: -webkit-box;
@@ -646,6 +642,7 @@ textarea::placeholder {
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
+  cursor: pointer;
   line-height: 30px;
   background-color: var(--accent-text-color);
   color: var(--text-color);
@@ -657,7 +654,7 @@ textarea::placeholder {
 }
 
 .hero-button:hover, .hero-button:focus {
-  background-color: var(red);
+  background-color: var(--background-text-color);
 }
 
 .item-advantages-div {
