@@ -552,6 +552,7 @@ textarea::placeholder {
 }
 
 .link-current {
+  color: var(--accent-text-color);
   display: block;
   text-decoration: none;
   position: relative;
@@ -655,7 +656,7 @@ textarea::placeholder {
 }
 
 .hero-button:hover, .hero-button:focus {
-  background-color: var(--background-text-color);
+  background-color: var(red);
 }
 
 .item-advantages-div {
