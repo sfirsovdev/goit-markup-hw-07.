@@ -377,6 +377,7 @@ textarea::placeholder {
   padding-right: 22px;
   padding-top: 6px;
   padding-bottom: 6px;
+  cursor: pointer;
   background-color: var(--section-color);
   font-family: Roboto;
   font-weight: 500;
