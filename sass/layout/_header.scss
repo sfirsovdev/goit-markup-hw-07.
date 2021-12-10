@@ -5,7 +5,7 @@
   font-family: raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1.2;
   color: var(--second-text-color);
   text-decoration: none;
   letter-spacing: 0.03em;
@@ -25,10 +25,9 @@
     letter-spacing: 0.03em;
   }
   &:hover {
-  color: var(--accent-text-color);
+    color: var(--accent-text-color);
+  }
 }
-}
-
 
 .contact {
   margin-right: auto;
