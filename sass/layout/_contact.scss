@@ -1,0 +1,35 @@
+.contact {
+  display: flex;
+  margin-top: 32px;
+  margin-left: 305px;
+  .item + .item {
+    margin-left: 30px;
+  }
+}
+
+.contact-icon-mail {
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+}
+
+.contact-icon-phone {
+  margin-right: 10px;
+  width: 10px;
+  height: 16px;
+}
+
+.item-phone {
+  display: flex;
+  text-align: center;
+}
+
+.contact-item {
+  transition: color 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    fill: var(--accent-text-color);
+    color: var(--accent-text-color);
+  }
+}

@@ -1,20 +1,20 @@
-.site-nav {
+.sitenav {
   display: flex;
   margin-left: 93px;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
   text-decoration: none;
-  .item {
+  .sitenav__item {
     margin-top: 32px;
   }
-  .link {
+  .sitenav__link {
     color: var(--second-text-color);
     text-decoration: none;
     transition: color 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .item + .item {
+  .sitenav__item + .sitenav__item {
     margin-left: 50px;
   }
 }
@@ -31,7 +31,7 @@
   pointer-events: none;
 }
 
-.link-current {
+.sitenav__linkcurrent {
   color: var(--accent-text-color);
   display: block;
   text-decoration: none;
@@ -41,48 +41,12 @@
   }
 }
 
-.link {
+.sitenav__link {
   display: block;
   text-decoration: none;
 
   .site-nav .site-nav &:hover,
   .site-nav &:focus {
-    color: var(--accent-text-color);
-  }
-}
-
-.contact {
-  display: flex;
-  margin-top: 32px;
-  margin-left: 305px;
-  .item + .item {
-    margin-left: 30px;
-  }
-}
-
-.contact-icon-mail {
-  margin-right: 10px;
-  width: 16px;
-  height: 12px;
-}
-
-.contact-icon-phone {
-  margin-right: 10px;
-  width: 10px;
-  height: 16px;
-}
-
-.item-phone {
-  display: flex;
-  text-align: center;
-}
-
-.contact-item {
-  transition: color 250ms linear;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    fill: var(--accent-text-color);
     color: var(--accent-text-color);
   }
 }
