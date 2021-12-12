@@ -944,7 +944,9 @@ textarea::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(223, 219, 219, 0.1);
+  transition: background-color 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footersocial__link:hover, .footersocial__link:focus {
