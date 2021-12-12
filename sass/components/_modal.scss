@@ -26,7 +26,7 @@
   }
 }
 
-.modal-close {
+.modal__close {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -41,10 +41,15 @@
   cursor: pointer;
   transition: border-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:focus .close-icon,
-  &:hover .close-icon {
+  &:focus .modal__icon,
+  &:hover .modal__icon {
     fill: #2196f3;
   }
+}
+
+.modal__icon {
+  transition: fill 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
@@ -53,13 +58,13 @@
   pointer-events: none;
 }
 
-.modal-form {
+.modalform {
   padding-top: 46px;
   padding-left: 41px;
   padding-right: 39px;
 }
 
-.modal-title {
+.modalform__title {
   padding-bottom: 12px;
   font-weight: bold;
   font-size: 20px;
@@ -137,16 +142,16 @@ textarea::placeholder {
   left: 5px;
 }
 
-.input-svg-wrap {
+.svgwrap {
   position: relative;
 }
 
-.agreement-field {
+.agreementfield {
   padding-left: auto;
   padding-right: auto;
 }
 
-.modal-check-text {
+.modalchecktext {
   margin-top: 8px;
   margin-bottom: 30px;
   display: flex;
@@ -179,12 +184,12 @@ textarea::placeholder {
   }
 }
 
-.modal-check-text-span {
+.modalchecktex__span {
   text-decoration-skip-ink: none;
   padding-left: 4px;
 }
 
-.link-check {
+.modalchecktex__link {
   text-decoration-skip-ink: none;
   color: var(--accent-text-color);
 }
@@ -196,7 +201,7 @@ textarea::placeholder {
   height: 15px;
 }
 
-.primary-button {
+.modalchecktex__button {
   display: block;
   margin-left: auto;
   margin-right: auto;

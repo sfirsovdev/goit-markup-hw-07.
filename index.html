@@ -359,49 +359,52 @@
 
   <div class="container">
 
-      <div class="footer-adress"> 
-          <a class="page-footer-color-logo" href="#">
+      <div class="footeradress"> 
+          <a class="footeradress__logo" href="#">
             <span>Web</span>Studio
           </a>
           <address class="adress">
-            <ul>
-              <li class="item-adress"><a class="title-adress" href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
-              <li class="item-adress"><a class="title-adress-post" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-              <li class="item-adress"><a class="title-adress-tel" href="tel:+380991111111">+38 099 111 11 11</a></li>
+            <ul class="adresslist">
+              <li class="adresslist__item">
+                <a class="adresslist__title" href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
+              <li class="adresslist__item">
+                <a class="adresslist-post" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+              <li class="adresslist__item">
+                <a class="adresslist-tel" href="tel:+380991111111">+38 099 111 11 11</a></li>
               </ul>  
           </address>
             </div>
 
-        <div class="footer-social">
-          <h3 class="footer-social-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
-          <ul class="footer-social-list list">
-            <li class="footer-social-item">
-              <a href="" class="comand-social-link">
-                <svg class="comand-footer-icon" width="20" height="20">
+        <div class="footersocial">
+          <h3 class="footersocial__title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+          <ul class="footersocial__list">
+            <li class="footersocial__item">
+              <a href="" class="footersocial__link">
+                <svg class="footersocial__icon" width="20" height="20">
                   <use href="./images/svg/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
         
-            <li class="footer-social-item">
-              <a href="" class="comand-social-link">
-                <svg class="comand-footer-icon" width="20" height="20">
+            <li class="footersocial__item">
+              <a href="" class="footersocial__link">
+                <svg class="footersocial__icon" width="20" height="20">
                   <use href="./images/svg/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
         
-            <li class="footer-social-item">
-              <a href="" class="comand-social-link">
-                <svg class="comand-footer-icon" width="20" height="20">
+            <li class="footersocial__item">
+              <a href="" class="footersocial__link">
+                <svg class="footersocial__icon" width="20" height="20">
                   <use href="./images/svg/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
         
-            <li class="footer-social-item">
-              <a href="" class="comand-social-link">
-                <svg class="comand-footer-icon" width="20" height="20">
+            <li class="footersocial__item">
+              <a href="" class="footersocial__link">
+                <svg class="footersocial__icon" width="20" height="20">
                   <use href="./images/svg/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -411,14 +414,14 @@
   
     <!--/container-->
 
-    <div class="footer-form">
-      <form class="footer-form-class">
-        <h3 class="footer-form-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+    <div class="footerform">
+      <form class="formfooter">
+        <h3 class="formfooter__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
         <input type="email" class="input-email" name="mail" id="mailfooter" placeholder="E-mail"/>
 
-        <button type="submit" class="button-form footer-form-button">
+        <button type="submit" class="formfooter buttonform ">
           Подписаться
-          <svg class="footer-form-button-svg" width="24" height="24">
+          <svg class="formfooter__icon" width="24" height="24">
             <use href="./images/svg/icons.svg#icon-icon-send-1"></use>
           </svg>
         </button>
@@ -429,17 +432,17 @@
 
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
-    <button type="button" class="modal-close" data-modal-close>
-      <svg class="close-icon" width="18" height="18">
+    <button type="button" class="modal__close" data-modal-close>
+      <svg class="modal__icon" width="18" height="18">
         <use href="./images/svg/icons.svg#icon-close-black-18dp-2-1-1"></use>
       </svg>
     </button>
-    <div class="modal-form">
-  <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
+    <div class="modalform">
+  <h3 class="modalform__title">Оставьте свои данные, мы вам перезвоним</h3>
   <form action="#" class="form">
     <div class="form-field">
       <label for="name" class="form-label">Имя</label>
-      <div class="input-svg-wrap">
+      <div class="svgwrap">
           <input 
           type="text" 
           class="form-input" 
@@ -483,21 +486,21 @@
         ></textarea>
       </div>
 
-      <div class="agreement-submit">
-        <div class="agreement-field">
+      <div class="agreementsubmit">
+        <div class="agreementfield">
           <input 
           type="checkbox" 
           name="policy" 
           id="modal-check" 
           class="modal-check is-hidden">  
-          <label for="modal-check" class="modal-check-text">
+          <label for="modal-check" class="modalchecktext">
           Соглашаюсь с рассылкой и принимаю 
-          <span class="modal-check-text-span">
-            <a href="#" class="link-check">Условия договора</a>
+          <span class="modalchecktex__span">
+            <a href="#" class="modalchecktex__link">Условия договора</a>
             </span>
           </label> 
         </div>
-        <button type="submit" class="primary-button">Отправить
+        <button type="submit" class="modalchecktex__button">Отправить
       </button>
       </div>
     </form>

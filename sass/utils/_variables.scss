@@ -9,3 +9,10 @@
   --border-bottom: #ececec;
   --border-portfolio-cards: #eeeeee;
 }
+
+body {
+  background-color: var(--text-color);
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  color: var(--main-text-color);
+}
