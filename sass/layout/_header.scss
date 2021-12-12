@@ -1,7 +1,11 @@
-.page-header {
+.header {
   border-bottom: 1px solid var(--border-bottom);
 }
-.page-header-color-logo {
+
+.header__logo {
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 25px;
   font-family: raleway;
   font-weight: 700;
   font-size: 26px;
@@ -9,12 +13,6 @@
   color: var(--second-text-color);
   text-decoration: none;
   letter-spacing: 0.03em;
-}
-
-.page-header-color-logo {
-  margin-top: 24px;
-  margin-bottom: 25px;
-  display: block;
   transition: color 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   span {

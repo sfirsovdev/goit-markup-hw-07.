@@ -1,4 +1,4 @@
-.hero {
+.hero__section {
   text-align: center;
   padding: 200px 0;
   margin-left: auto;
@@ -16,7 +16,7 @@
   background-size: cover;
 }
 
-.hero-title {
+.hero__title {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -26,7 +26,7 @@
   text-align: center;
 }
 
-.hero-button {
+.hero__button {
   border: none;
   border-radius: 4px;
   padding: 10px 32px;
