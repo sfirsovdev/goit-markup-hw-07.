@@ -45,7 +45,7 @@
   display: block;
   text-decoration: none;
 
-  .sitenav .sitenav &:hover,
+  .sitenav &:hover,
   .sitenav &:focus {
     color: var(--accent-text-color);
   }

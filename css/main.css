@@ -481,7 +481,7 @@ textarea::placeholder {
   text-decoration: none;
 }
 
-.sitenav .sitenav .sitenav__link:hover,
+.sitenav .sitenav__link:hover,
 .sitenav .sitenav__link:focus {
   color: var(--accent-text-color);
 }
