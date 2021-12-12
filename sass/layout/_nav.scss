@@ -36,7 +36,7 @@
   display: block;
   text-decoration: none;
   position: relative;
-  .site-nav .site-nav & {
+  .sitenav .sitenav & {
     color: var(--accent-text-color);
   }
 }
@@ -45,8 +45,8 @@
   display: block;
   text-decoration: none;
 
-  .site-nav .site-nav &:hover,
-  .site-nav &:focus {
+  .sitenav .sitenav &:hover,
+  .sitenav &:focus {
     color: var(--accent-text-color);
   }
 }

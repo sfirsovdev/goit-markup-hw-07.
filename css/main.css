@@ -472,7 +472,7 @@ textarea::placeholder {
   position: relative;
 }
 
-.site-nav .site-nav .sitenav__linkcurrent {
+.sitenav .sitenav .sitenav__linkcurrent {
   color: var(--accent-text-color);
 }
 
@@ -481,8 +481,8 @@ textarea::placeholder {
   text-decoration: none;
 }
 
-.site-nav .site-nav .sitenav__link:hover,
-.site-nav .sitenav__link:focus {
+.sitenav .sitenav .sitenav__link:hover,
+.sitenav .sitenav__link:focus {
   color: var(--accent-text-color);
 }
 
