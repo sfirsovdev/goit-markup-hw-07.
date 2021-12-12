@@ -427,21 +427,6 @@ textarea::placeholder {
   color: var(--accent-text-color);
 }
 
-.contact {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.contact-item {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  color: var(--main-text-color-text-color);
-  fill: #757575;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-
 .sitenav {
   display: flex;
   margin-left: 93px;
@@ -503,35 +488,38 @@ textarea::placeholder {
   display: flex;
   margin-top: 32px;
   margin-left: 305px;
+  margin-right: auto;
 }
 
-.contact .item + .item {
+.contact .contact__item + .contact__item {
   margin-left: 30px;
 }
 
-.contact-icon-mail {
+.contact__mail {
   margin-right: 10px;
   width: 16px;
   height: 12px;
 }
 
-.contact-icon-phone {
+.contact__phone {
   margin-right: 10px;
   width: 10px;
   height: 16px;
 }
 
-.item-phone {
-  display: flex;
-  text-align: center;
-}
-
-.contact-item {
+.contact__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--main-text-color-text-color);
+  fill: #757575;
+  letter-spacing: 0.02em;
+  text-decoration: none;
   transition: color 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-item:hover, .contact-item:focus {
+.contact__link:hover, .contact__link:focus {
   fill: var(--accent-text-color);
   color: var(--accent-text-color);
 }
