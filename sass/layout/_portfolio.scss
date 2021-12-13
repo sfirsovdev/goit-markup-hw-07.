@@ -1,6 +1,6 @@
 .link-our-product {
   text-decoration: none;
-  &:focus .portfolio-text {
+  &:focus .cards__text {
     transform: translateY(0);
   }
 }
@@ -26,12 +26,12 @@
   border: solid 1px var(--border-portfolio-cards);
 }
 
-.portfoliocards {
+.cards {
   display: flex;
   flex-wrap: wrap;
 }
 
-.portfolio__text {
+.cards__text {
   position: absolute;
   top: 0;
   left: 0;
@@ -45,12 +45,12 @@
   transform: translateY(100%);
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  .cardsitem:hover & {
+  .cards__item:hover & {
     transform: translateY(0);
   }
 }
 
-.cardsitem {
+.cards__item {
   margin-right: 30px;
   margin-bottom: 30px;
   transition: box-shadow 250ms;
@@ -72,15 +72,15 @@
   }
 }
 
-.cardsitem:hover .portfolio__text {
+.cards__item:hover .portfolio__text {
   transform: translateY(0);
 }
 
-.cardswrap {
+.cards__wrap {
   position: relative;
   overflow: hidden;
 }
 
-.cardsitem__link {
+.cards__link {
   text-decoration: none;
 }
