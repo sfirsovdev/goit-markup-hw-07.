@@ -68,6 +68,58 @@ ul {
   display: flex;
 }
 
+.header__logo {
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--second-text-color);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: color 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header__logo span {
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--accent-text-color);
+  letter-spacing: 0.03em;
+}
+
+.header__logo:hover {
+  color: var(--accent-text-color);
+}
+
+.footeradress__logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  text-decoration: none;
+  cursor: default;
+  transition: color 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footeradress__logo:hover {
+  color: var(--accent-text-color);
+}
+
+.footeradress__logo span {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+}
+
 .backdrop {
   width: 100vw;
   height: 100vw;
@@ -400,33 +452,6 @@ textarea::placeholder {
 
 .header {
   border-bottom: 1px solid var(--border-bottom);
-}
-
-.header__logo {
-  display: block;
-  margin-top: 24px;
-  margin-bottom: 25px;
-  font-family: raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  color: var(--second-text-color);
-  text-decoration: none;
-  letter-spacing: 0.03em;
-  transition: color 250ms linear;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header__logo span {
-  font-family: raleway;
-  font-weight: 700;
-  font-size: 26px;
-  color: var(--accent-text-color);
-  letter-spacing: 0.03em;
-}
-
-.header__logo:hover {
-  color: var(--accent-text-color);
 }
 
 .sitenav {
@@ -809,31 +834,6 @@ textarea::placeholder {
   background-color: var(--background-color);
 }
 
-.footer .footeradress__logo {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--text-color);
-  text-decoration: none;
-  cursor: default;
-  transition: color 250ms linear;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer .footeradress__logo:hover {
-  color: var(--accent-text-color);
-}
-
-.footeradress__logo span {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-text-color);
-}
-
 .footerform {
   display: block;
   padding-top: 12px;
@@ -887,7 +887,7 @@ textarea::placeholder {
   flex-shrink: 0;
 }
 
-.formfooter__icon {
+.footerform___icon {
   margin-left: 10px;
 }
 
